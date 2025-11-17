@@ -160,4 +160,4 @@ I opted to use **VS Code Remote-SSH** to work directly on Farmshare. This approa
 
 ---
 ## Acknowledgement
-Collaborator: Eliel Akinbami - helped clarify instructions for customizing my Bash pr:Q:Qofile.
+Collaborator: Eliel Akinbami - helped clarify instructions for customizing my Bash profile.

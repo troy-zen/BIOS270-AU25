@@ -5,11 +5,14 @@ from utils import clean_seq, chunk_lines
 from align import compute_alignment, alignment_stats
 
 # TO DO: Add a logo or image above the title, replace with your favorite image
-st.image(
-    "https://img.bgstatic.com/multiLang/web/605120c4719cc92a226e9ac6f3049631.jpg",
+# st.image(
+#    "https://img.bgstatic.com/multiLang/web/605120c4719cc92a226e9ac6f3049631.jpg",
+#    width=300
+#)
+ st.image(
+    "https://thumb.photo-ac.com/80/802ba414c51720f279167dd73ddbe8fb_t.jpeg",
     width=300
-)
-
+    
 # ---------------- Streamlit App ----------------
 st.set_page_config(page_title="Pairwise Sequence Aligner", layout="wide")
 st.title("Pairwise Sequence Aligner")

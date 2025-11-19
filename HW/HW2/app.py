@@ -4,6 +4,12 @@ import plotly.express as px
 from utils import clean_seq, chunk_lines
 from align import compute_alignment, alignment_stats
 
+# TO DO: Add a logo or image above the title, replace with your favorite image
+st.image(
+    "https://img.bgstatic.com/multiLang/web/605120c4719cc92a226e9ac6f3049631.jpg",
+    width=300
+)
+
 # ---------------- Streamlit App ----------------
 st.set_page_config(page_title="Pairwise Sequence Aligner", layout="wide")
 st.title("Pairwise Sequence Aligner")
@@ -75,10 +81,15 @@ if align_clicked:
                 chunk_lines(alnA, stats["match_line"], alnB, width=80)
             )
             st.code(text_block, language="text")
-
+            
             # Match profile plot
             st.subheader("Match profile (1=match, 0=mismatch; gaps omitted)")
             vals = [v for v in stats["perpos"] if not np.isnan(v)]
+
+            # TODO: Find an appropriate location in `app.py` to insert this code
+            fig = px.histogram(vals, nbins=10, title="Distribution of Match Values (Match=1, Mismatch=0)")
+
+            st.plotly_chart(fig, use_container_width=True)
             if len(vals) > 0:
                 fig = px.line(
                     y=vals,
@@ -91,6 +102,9 @@ if align_clicked:
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("No comparable (non-gap) positions to plot.")
+
+            
+            
 
             # Download
             out_text = (

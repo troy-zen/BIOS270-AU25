@@ -1,3 +1,4 @@
 *.sif
 *.img
 *.simg
+.DS_Store

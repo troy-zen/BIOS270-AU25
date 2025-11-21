@@ -13,7 +13,7 @@ This section documents the steps I completed to configure my working environment
 ---
 
 ## Content
-Here contains the screenshots, code snippets, and observations for documentation of work completed from the `Setup.md` and `Environment.md` instructions.
+Here contains the screenshots and warmup answers to the questions in `Setup.md`.
 
 ### `Setup.md` documentation
 ---
@@ -67,7 +67,7 @@ Created a **Weights & Biases** account to track my ML training metrics and exper
 <img src=./images/wandb.png width="750" alt="wandb homepage">
 
 
-### SLURM warmup answers to questions in Setup.md
+### SLURM warmup answers to questions in `Setup.md`
 
 **1. How many slurm jobs will be submitted?**
 > Three SLURM jobs will be submitted because the directive `#SBATCH --array=0-2` creates jobs with indices 0, 1, and 2.

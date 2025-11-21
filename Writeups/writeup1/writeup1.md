@@ -67,7 +67,7 @@ Created a **Weights & Biases** account to track my ML training metrics and exper
 <img src=./images/wandb.png width="750" alt="wandb homepage">
 
 
-### SLURM warmup answers to questions in Setup.md
+### SLURM warmup answers to questions in `Setup.md`
 
 **1. How many slurm jobs will be submitted?**
 > Three SLURM jobs will be submitted because the directive `#SBATCH --array=0-2` creates jobs with indices 0, 1, and 2.

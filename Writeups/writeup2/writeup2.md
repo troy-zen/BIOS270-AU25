@@ -8,7 +8,7 @@
 
 ## Overview
 
-This section summarizes my work following Environment.md, including creating and testing a micromamba environment, running the provided example scripts, updating the environment with new packages, and exporting a clean YAML specification. I also built, tagged, and pushed Docker images, generated a reproducible Apptainer (`.sif`) container on Farmshare, and tested container execution using bound directories. I included some simple observations as I went, like differences in the YAML files, architecture issues, and what happened inside the container, just to show what I noticed while working through everything.
+This section summarizes my work following `Environment.md`, including creating and testing a micromamba environment, running the provided example scripts, updating the environment with new packages, and exporting a clean YAML specification. I also built, tagged, and pushed Docker images, generated a reproducible Apptainer (`.sif`) container on Farmshare, and tested container execution using bound directories. I included some simple observations as I went, like differences in the YAML files, architecture issues, and what happened inside the container, just to show what I noticed while working through everything.
 
 ---
 

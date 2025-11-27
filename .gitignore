@@ -2,3 +2,9 @@
 *.img
 *.simg
 .DS_Store
+bacteria.db
+all_protein_ids.txt
+*.npy
+*.out
+*.err
+__pycache__

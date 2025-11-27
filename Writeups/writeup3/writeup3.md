@@ -132,9 +132,9 @@ chunks = (chunk_size, n_features)
 >Setting the chunk shape to `(1000, n_features)` means the file stores the data in blocks of 1,000 proteins. This matches how the data is used in large consecutive slices that are read at once. Chunking the dataset in this way makes those group reads faster and reduces overhead, because HDF5 can load entire blocks efficiently instead of doing lots of small random accesses.
 
 ### 5) SQL + HDF5 Practice Script
-Below is the link to my full script used to combine SQLite and HDF5 to produce an (N, 164) embedding matrix for a given `record_id` and specified `metric`.
-##### link python script here
-[extract_record_embeddings python script](URL to python script)
+The full script is available in 
+[`extract_record_embeddings.py`](https://github.com/troy-zen/BIOS270-AU25/blob/main/Data/extract_record_embeddings.py).\
+It builds an `(N, 164)` embedding matrix for a given `record_id` and `metric`.
 
 #### 5.1. Explanation of the script flow
 1) Use SQLite database (`bacteria.db`) to look up all protein IDs associated with the given `record_id`.
@@ -147,7 +147,7 @@ protein_id -> row index in embedding matrix
 
 4) Convert the SQL protein IDs into embedding indices
 
-5) Use index to efficiently extract a matrix of shape (N, 164)
+5) Use index to efficiently extract a matrix of shape `(N, 164)`
 
 6) Save the result as a .npy file
 

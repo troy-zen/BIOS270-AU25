@@ -85,8 +85,13 @@ sbatch create_bacteria_db.sh
 
 While the job is running, answer the following questions:
 
-- Examine `create_bacteria_db.sh`, how many tables will be created in the database?  
+- Examine `create_bacteria_db.sh`, how many tables will be created in the database?
+> There will be 3 tables created corresponding to the 3 python scripts.
+
 - In the `insert_gff_table.py` script you submitted, explain the logic of using `try` and `except`. Why is this necessary?
+> The `try`/`except` block is used to safely write each GFF DataFrame into the SQLite database, which can only handle one writer at a time. When multiple processes try to write to the same `bacteria.db` file simultaneously, SQLite will raise an error saying the database is locked. This means that another process is currently writing, and if we wait a moment, the lock will clear. \
+\
+>Inside the loop `try` attempts to write the DataFrame into the SQL table. If it succeeds, it will `break` out of the retry loop. If the database is currently locked, it will catch the error, wait one second to give it time to unlock, and then try again. If the error is something else, it will raise it immediately and stop trying because retrying won't fix a real bug.
 
 ```python
 while try_num < max_retries:
@@ -120,7 +125,9 @@ Record the runtime. You may stop the session early if it takes too long and only
 
 Then, uncomment `db.index_record_ids()` in `query_bacteria_db.py` and note how the runtime changes.  
 Why do you think this is the case?
-
+>Without an index, SQLite has to scan the entire gff table every time we ask for a `protein_id` for a specific `record_id`. Since the script repeats this query for every `record_id`, the program ends up doing thousands of full table scans, which is very slow.\
+\
+When we add an index with `db.index_record_ids`, SQLite creates a fast lookup structure that lets it jump directly to the matching rows instead of searching the whole table. This removes the repeated full scans and makes each query much faster, which dramatically reduces the overall runtime.
 ---
 
 ### 3. Upload to Google BigQuery
@@ -129,7 +136,7 @@ The dataset you are handling is relatively small. However, for larger datasets o
 
 Examine the `upload_bigquery.py` script.  
 Explain the role of `CHUNK_SIZE` and why it is necessary:
-
+>`CHUNK_SIZE` lets the script process the table in manageable batches by reading N rows, uploading to BigQuery, and repeating. This keeps memory usage controlled and makes the upload scalable to much larger datasets.
 ```python
 df = pd.read_sql_query(
     f"SELECT * FROM {table} LIMIT {CHUNK_SIZE} OFFSET {offset}",
@@ -158,6 +165,9 @@ Explain why the following chunk configuration makes sense - what kind of data ac
 chunk_size = 1000
 chunks = (chunk_size, n_features)
 ```
+>Protein embeddings are stored as a large matrix, where each row is one protein and each column is one of the 164 embedding features. In most biological analyses, data is accessed in groups (e.g. all proteins from a record or all proteins from an assembly) rather than one protein at a time.\
+\
+>Setting the chunk shape to `(1000, n_features)` means the file stores the data in blocks of 1,000 proteins. This matches how the data is used in large consecutive slices that are read at once. Chunking the dataset in this way makes those group reads faster and reduces overhead, because HDF5 can load entire blocks efficiently instead of doing lots of small random accesses.
 
 ---
 

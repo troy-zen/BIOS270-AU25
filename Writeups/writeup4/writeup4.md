@@ -5,7 +5,7 @@
 **Date:** 11/28/2025
 
 ---
-
+---
 ## Overview
 In this assignment, I worked with both SLURM and Nextflow to understand how multi-stage RNA-seq pipelines are coordinated on a cluster. On the SLURM side, I examined how parallel per-sample jobs (FASTQC → Trim Galore → Salmon) are chained together using job dependencies, and how a final DESeq2 step can be triggered only after all Salmon quantification jobs finish.
 
@@ -127,6 +127,6 @@ During the setup and launch of the Nextflow pipeline, two issues arose:
 These fixes ensured the container environment was properly initialized and allowed the pipeline to run successfully on SLURM.
 
 ---
-
+---
 
 

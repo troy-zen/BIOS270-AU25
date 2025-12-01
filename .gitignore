@@ -8,3 +8,5 @@ all_protein_ids.txt
 *.out
 *.err
 __pycache__
+Pipeline/rnaseq_nf/work/
+Pipeline/rnaseq_nf/.nextflow*

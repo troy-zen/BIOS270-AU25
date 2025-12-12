@@ -1,0 +1,149 @@
+protein_id	protein_name	copy_number
+BHFGHA_08755	IS1 family transposase	9
+BHFGHA_08765	IS1 family transposase	9
+BHFGHA_10015	IS1 family transposase	9
+BHFGHA_17085	IS1 family IS1SD transposase ORF B	9
+BHFGHA_17200	IS1 family transposase	9
+BHFGHA_23825	IS1 family transposase	9
+BHFGHA_23940	IS1 family transposase	9
+BHFGHA_24095	IS1 family IS1SD transposase ORF B	9
+BHFGHA_24110	IS1 family IS1SD transposase ORF B	9
+BHFGHA_08750	IS1 family IS1A transposase ORF A	7
+BHFGHA_08770	IS1 family IS1A transposase ORF A	7
+BHFGHA_17080	IS1 family IS1A transposase ORF A	7
+BHFGHA_23830	IS1 family IS1B transposase ORF A	7
+BHFGHA_23945	IS1 family IS1A transposase ORF A	7
+BHFGHA_24100	IS1 family IS1A transposase ORF A	7
+BHFGHA_24105	IS1 family IS1A transposase ORF A	7
+BHFGHA_03515	IS3 family IS2 transposase ORF A	6
+BHFGHA_08835	IS3 family IS2 transposase ORF A	6
+BHFGHA_16080	Transposase	6
+BHFGHA_17055	IS3 family IS2 transposase ORF A	6
+BHFGHA_19810	IS3 family IS2 transposase ORF A	6
+BHFGHA_24150	IS3 family IS2 transposase ORF A	6
+BHFGHA_08905	IS3 family IS629 transposase ORF B	5
+BHFGHA_08800	IS3 family transposase	5
+BHFGHA_23720	HTH-like domain-containing protein	5
+BHFGHA_24210	HTH-like domain-containing protein	5
+BHFGHA_24200	Integrase catalytic domain-containing protein	5
+BHFGHA_02870	IS6 family IS15DIV transposase	5
+BHFGHA_02890	IS6 family IS15DIV transposase	5
+BHFGHA_23805	IS6 family IS15DIV transposase	5
+BHFGHA_23860	IS6 family IS15DIV transposase	5
+BHFGHA_23890	IS6 family IS15DIV transposase	5
+BHFGHA_08805	IS3 family IS1203 transposase ORF A	4
+BHFGHA_08900	IS3 family IS3411 transposase ORF A	4
+BHFGHA_23715	IS3 family IS629 transposase ORF A	4
+BHFGHA_24215	IS3 family IS1203 transposase ORF A	4
+BHFGHA_03520	IS3 family IS2 transposase ORF B	4
+BHFGHA_08840	IS3 family IS2 transposase ORF B	4
+BHFGHA_17050	IS3 family IS2 transposase ORF B	4
+BHFGHA_19805	IS3 family IS2 transposase ORF B	4
+BHFGHA_24665	DNA polymerase III, epsilon subunit or related 3'-5' exonuclease	3
+BHFGHA_23595	3'-5' exonuclease	3
+BHFGHA_25460	3'-5' exonuclease	3
+BHFGHA_24695	Prophage side tail fiber protein	3
+BHFGHA_00030	Prophage side tail fiber protein	3
+BHFGHA_24290	Prophage side tail fiber protein	3
+BHFGHA_24800	Putative transposase InsN for insertion sequence element IS911A	3
+BHFGHA_17110	IS3 family transposase ORF A	3
+BHFGHA_16275	IS3 family transposase ORF A	3
+BHFGHA_08890	Transposase	3
+BHFGHA_08955	IS3 family ISSd1 transposase ORF A	3
+BHFGHA_17140	IS3 family ISSfl10 transposase ORF A	3
+BHFGHA_24315	phage minor tail protein L	3
+BHFGHA_00005	phage minor tail protein L	3
+BHFGHA_24670	phage minor tail protein L	3
+BHFGHA_00010	Proteasome lid subunit RPN8/RPN11, contains Jab1/MPN domain metalloenzyme (JAMM) motif	3
+BHFGHA_24310	Proteasome lid subunit RPN8/RPN11, contains Jab1/MPN domain metalloenzyme (JAMM) motif	3
+BHFGHA_24675	Proteasome lid subunit RPN8/RPN11, contains Jab1/MPN domain metalloenzyme (JAMM) motif	3
+BHFGHA_00015	Phage-related protein, tail assembly protein I	3
+BHFGHA_24305	Phage-related protein, tail assembly protein I	3
+BHFGHA_24680	Phage-related protein, tail assembly protein I	3
+BHFGHA_00020	Host specificity protein J	3
+BHFGHA_24300	Host specificity protein J	3
+BHFGHA_24685	Host specificity protein J	3
+BHFGHA_00025	Opacity protein LomR and related surface antigens	3
+BHFGHA_24295	Opacity protein LomR and related surface antigens	3
+BHFGHA_24690	Opacity protein LomR and related surface antigens	3
+BHFGHA_00035	Prophage protein	3
+BHFGHA_24285	Prophage protein	3
+BHFGHA_24700	Prophage protein	3
+BHFGHA_17115	IS3 family transposase	3
+BHFGHA_24810	IS3 family transposase	3
+BHFGHA_17145	Putative transposase InsO for insertion sequence element IS911B	3
+BHFGHA_01165	IS200/IS605-like element IS200C family transposase	3
+BHFGHA_02410	IS200/IS605-like element IS200C family transposase	3
+BHFGHA_07190	IS200/IS605-like element IS200C family transposase	3
+BHFGHA_24775	NADP-dependent isocitrate dehydrogenase	2
+BHFGHA_24935	NADP-dependent isocitrate dehydrogenase	2
+BHFGHA_24805	IS30 family IS30 transposase	2
+BHFGHA_08895	Transposase and inactivated derivatives, IS30 family	2
+BHFGHA_24910	Ybl63	2
+BHFGHA_24705	Ybl63	2
+BHFGHA_08740	Integrase/recombinase, includes phage integrase	2
+BHFGHA_16310	Integrase/recombinase, includes phage integrase	2
+BHFGHA_08745	Tetratricopeptide repeat protein	2
+BHFGHA_16305	ShiA-like protein	2
+BHFGHA_08960	IS3 family ISSd1 transposase	2
+BHFGHA_17135	IS3 family ISSd1 transposase ORF B	2
+BHFGHA_23605	Phage replisome organizer	2
+BHFGHA_24605	Putative phage replication protein	2
+BHFGHA_23610	Bacterial toxin YdaT domain-containing protein	2
+BHFGHA_24610	Bacterial toxin YdaT domain-containing protein	2
+BHFGHA_23625	Prophage protein	2
+BHFGHA_24630	DUF1391 domain-containing protein	2
+BHFGHA_23630	Uncharacterized protein YdfB	2
+BHFGHA_24635	Prophage protein	2
+BHFGHA_23635	Prophage protein	2
+BHFGHA_24640	Prophage protein	2
+BHFGHA_23645	Replication protein	2
+BHFGHA_23650	protein rep	2
+BHFGHA_03245	Outer membrane porin OmpC/OmpF/PhoE	2
+BHFGHA_24885	Outer membrane porin OmpC/OmpF/PhoE	2
+BHFGHA_24060	AbrB/MazE/SpoVT family DNA-binding domain-containing protein	2
+BHFGHA_24075	VagC	2
+BHFGHA_24065	tRNA(fMet)-specific endonuclease VapC	2
+BHFGHA_24080	Ribonuclease/mRNA interferase VapC, contains PIN domain	2
+BHFGHA_24420	hypothetical protein	2
+BHFGHA_25555	hypothetical protein	2
+BHFGHA_24425	Transmembrane protein	2
+BHFGHA_25560	Transmembrane protein	2
+BHFGHA_24430	SAR-endolysin	2
+BHFGHA_25565	SAR-endolysin	2
+BHFGHA_24520	Type I toxin-antitoxin system Hok family toxin	2
+BHFGHA_25600	type I toxin-antitoxin system toxin HokD	2
+BHFGHA_04105	colanic acid biosynthesis phosphomannomutase CpsG	2
+BHFGHA_04205	colanic acid biosynthesis phosphomannomutase CpsG	2
+BHFGHA_07945	Type VI secretion system tip protein VgrG	2
+BHFGHA_07930	Type VI secretion system tip protein VgrG	2
+BHFGHA_20840	Methyltransferase type 12 domain-containing protein	2
+BHFGHA_24710	Methyltransferase type 12 domain-containing protein	2
+BHFGHA_20930	Hok/gef family protein	2
+BHFGHA_20940	type I toxin-antitoxin system toxin HokE	2
+BHFGHA_18495	Bacteriocin immunity protein	2
+BHFGHA_18505	Bacteriocin immunity protein	2
+BHFGHA_11045	translation elongation factor EF-Tu 1	2
+BHFGHA_14995	elongation factor Tu	2
+BHFGHA_01225	starvation-sensing protein RspA	2
+BHFGHA_14870	D-mannonate dehydratase ManD	2
+BHFGHA_01265	DMSO/selenate family reductase complex B subunit	2
+BHFGHA_22530	DMSO/selenate family reductase complex B subunit	2
+BHFGHA_01505	class I fumarate hydratase	2
+BHFGHA_15920	class I fumarate hydratase	2
+BHFGHA_16000	Antitoxin of the YeeV-YeeU toxin-antitoxin system; CP4-44 prophage	2
+BHFGHA_17275	YagB/YeeU/YfjZ family protein	2
+BHFGHA_16010	CP4-44 prophage	2
+BHFGHA_17265	Uncharacterized protein YeeT	2
+BHFGHA_16015	DNA repair protein RadC, contains a helix-hairpin-helix DNA-binding motif	2
+BHFGHA_17260	DNA repair protein RadC, contains a helix-hairpin-helix DNA-binding motif	2
+BHFGHA_16020	Antirestriction protein	2
+BHFGHA_17255	Antirestriction protein	2
+BHFGHA_16025	Aec71	2
+BHFGHA_17250	DUF945 domain-containing protein	2
+BHFGHA_00795	PAAR repeat-containing protein	2
+BHFGHA_19170	Type VI secretion system PAAR protein	2
+BHFGHA_00965	glutamate decarboxylase	2
+BHFGHA_12000	glutamate decarboxylase	2
+BHFGHA_10020	InsB	2
+BHFGHA_23800	InsB	2
